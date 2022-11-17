@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: lightblue;
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blue;
+    padding: 15px;
+    border-bottom: solid 2px red;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header > p {
+    margin: 10px 0px;
+    text-indent: 5px;
+    word-spacing: 1px;
+}
+
+main h1, h2 {
+    font-family: ;
+    background-image: linear-gradient(to right, blue, transparent);
+    border-bottom: solid 2px red;
+}
+
+header h1 {
+    color: red;
+    text-shadow: 7px 2px 10px;
+}
+
+main {
+    padding: 15px;
+}
+
+main > h2 {
+    margin-bottom: 5px;
+}
+
+main p {
+    text-indent: 5px;
+    word-spacing: 0.5px;
+    margin: 5px;
+}
+
+img {
+    border: solid 1.5px red;
+    border-radius: 10px;
+    height: 350px;
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(101, 143, 157);
+}
