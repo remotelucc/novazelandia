@@ -20,6 +20,7 @@ header {
     padding: 15px;
     border-bottom: solid 2px red;
     border-radius: 0px 0px 10px 10px;
+    text-align: center;
 }
 
 header > p {
@@ -30,9 +31,10 @@ header > p {
 
 main h1, h2 {
     font-family: 'Comfortaa', cursive;
-    background-image: linear-gradient(to right, blue, transparent);
+    background-image: linear-gradient(to right, darkblue, transparent);
     border-bottom: solid 2px red;
     padding: 7px;
+    color: var(--cor01);
 }
 
 header h1 {
@@ -42,16 +44,22 @@ header h1 {
 
 main {
     padding: 15px;
+    width: 700px;
+    background-color: blue;
+    margin: auto;
 }
 
 main > h2 {
     margin-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main p {
     text-indent: 5px;
     word-spacing: 0.5px;
     margin: 5px;
+    margin-bottom: 15px;
+    color: var(--cor01);
 }
 
 img {
